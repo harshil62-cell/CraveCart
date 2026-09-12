@@ -51,13 +51,15 @@ const Login = () => {
                     <div className="mb-10">
                         {
                             isLoading ? <Button disabled className="bg-button hover:bg-button-hover w-full"><Loader2 className="mr-2 h-4 w-4 animate-spin"></Loader2> please wait</Button> :
-                            <Button type="submit" className="bg-button hover:bg-button-hover w-full">Login</Button>
+                            <Button type="submit" className="bg-button hover:bg-button-hover w-full cursor-pointer">Login</Button>
                         }
+
+                        <Link to='/forgot-password' className="hover:text-blue-500 hover:underline text-center">Forgot Password?</Link>
                     </div>
 
                     <Separator/>
 
-                    <p>Don't have an account?{" "}
+                    <p className="text-center">Don't have an account?{" "}
                         <Link to='/signup' className="text-blue-500">Sign Up</Link>
                     </p>
                 </form>
