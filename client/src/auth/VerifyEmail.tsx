@@ -52,7 +52,6 @@ const VerifyEmail = () => {
                     animate-spin mr-2 w-4 h-4"></Loader2>Please wait</Button> : 
                     <Button className="bg-button hover:bg-button-hover mt-6 w-full cursor-pointer">Verify</Button>
                 }
-                <Button className="bg-button hover:bg-button-hover mt-6 w-full cursor-pointer">Verify</Button>
             </form>
         </div>
     </div>
