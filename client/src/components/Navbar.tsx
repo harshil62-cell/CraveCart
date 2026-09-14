@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='max-w-7xl mx-auto'>
       <div className='flex items-center justify-between h-14'>
         <Link to='/'>
-            <h1 className='font-bold md:font-extrabold text-2xl'>Eat it</h1>
+            <h1 className='font-bold md:font-extrabold text-2xl'>Crave Cart</h1>
         </Link>
         <div className='hidden md:flex items-centre gap-10'>
             <Link to='/'>Home</Link>
@@ -89,7 +89,7 @@ const MobileNavBar = ({ admin, loading }: { admin: boolean; loading: boolean }) 
       <SheetTrigger render={<Button className='rounded-full bg-gray-200 text-black hover:bg-gray-200' size={'icon'} variant="outline"><Menu size={'18'}/></Button>} />
   <SheetContent className="flex flex-col gap-0 p-0">
         <SheetHeader className='flex flex-row items-center justify-between gap-4 pr-12 mt-2'>
-          <SheetTitle>Eat it</SheetTitle>
+          <SheetTitle>Crave Cart</SheetTitle>
                       <DropdownMenu>
       <DropdownMenuTrigger render={<Button variant="outline" size="icon" />}>
           <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
@@ -145,7 +145,7 @@ const MobileNavBar = ({ admin, loading }: { admin: boolean; loading: boolean }) 
               <AvatarImage />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
-            <h1 className="font-bold">Eat it User</h1>
+            <h1 className="font-bold">Crave Cart User</h1>
           </div>
           <SheetClose render={loading ?
             <Button disabled className='bg-button hover:bg-button-hover' /> :

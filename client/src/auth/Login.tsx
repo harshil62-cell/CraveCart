@@ -35,7 +35,7 @@ const Login = () => {
             <div className="flex min-h-screen w-full items-center justify-center">
                 <form onSubmit={loginSubmitHandler} className="mx-4 w-full max-w-md rounded-lg border-gray-200 p-6 md:p-8 md:border">
                     <div className="mb-4">
-                        <h1 className="font-bold text-2xl">Eat It</h1>
+                        <h1 className="font-bold text-2xl">Crave Cart</h1>
                     </div>
                     <div className="relative mb-4">
                         <Input name="email" type='email' placeholder="Email" className="pl-10 focus-visible:ring-0" value={input.email} onChange={changeEventHandler}/>

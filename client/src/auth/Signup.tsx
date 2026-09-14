@@ -48,7 +48,7 @@ const Signup = () => {
             <div className="flex min-h-screen w-full items-center justify-center">
                 <form onSubmit={signUpSubmitHandler} className="mx-4 w-full max-w-md rounded-lg border-gray-200 p-6 md:p-8 md:border">
                     <div className="mb-4">
-                        <h1 className="font-bold text-2xl">Eat It</h1>
+                        <h1 className="font-bold text-2xl">Crave Cart</h1>
                     </div>
                     <div className="relative mb-4">
                         <Input name="fullname" type='text' placeholder="Full Name" className="pl-10 focus-visible:ring-0" value={input.fullname} onChange={changeEventHandler}/>

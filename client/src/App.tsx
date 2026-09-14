@@ -1,10 +1,11 @@
 import { createBrowserRouter, Navigate, Route, RouterProvider, Routes } from "react-router-dom"
 import Login from "./auth/Login"
-import MainLayout from "./MainLayout"
 import Signup from "./auth/Signup"
 import ForgotPassword from "./auth/ForgotPassword"
 import ResetPassword from "./auth/ResetPassword"
 import VerifyEmail from "./auth/VerifyEmail"
+import MainLayout from "./layout/MainLayout"
+import HeroSection from "./components/HeroSection"
 
 const appRouter=createBrowserRouter([
   {
@@ -12,7 +13,8 @@ const appRouter=createBrowserRouter([
     element:<MainLayout/>,
     children:[
       {
-        
+        path:"/",
+        element:<HeroSection/>
       }
     ]
   },
